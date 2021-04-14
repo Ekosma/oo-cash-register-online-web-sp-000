@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class CashRegister
 
   attr_accessor :discount, :items, :total
@@ -41,5 +42,18 @@ class CashRegister
     self.total = self.total - (last_item["price"] * last_item["quantity"])
     self.items.pop
   end
+=======
+class Cash
+
+  attr_accessor :cash_register, :cash_register_with_discount
+
+  def initialize
+  
+  end
+
+
+
+
+>>>>>>> 257d5d6792ec3baff512282bc7eb0e2eddd587de
 
 end
